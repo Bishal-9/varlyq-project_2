@@ -1,0 +1,9 @@
+.template01__card {
+    border-radius: 20px !important;
+    overflow: hidden;
+}
+
+.template01__card img {
+    width: 100%;
+    object-fit: contain;
+}

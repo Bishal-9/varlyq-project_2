@@ -1,0 +1,53 @@
+.dashboard {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.dashboard__item {
+    margin: 30px 10px;
+}
+
+.dashboard__itemContent {
+    display: flex;
+    align-items: flex-start;
+    background: rgb(245, 245, 245);
+}
+
+.dashboard__itemLeft {
+
+}
+
+.dashboard__cardValue {
+    color: tomato;
+    font-weight: bolder !important;
+}
+
+.dashboard__cardTopic {
+    color: yellowgreen;
+}
+
+.dashboard__cardIcon {
+    font-size: 4rem !important;
+    margin: 0 20px;
+    color: grey;
+}
+
+.dashboard__footer {
+    display: flex;
+    align-items: center;
+    background: lightblue;
+    padding: 15px;
+    justify-content: center;
+}
+
+.dashboard__footer:hover {
+    cursor: pointer;
+}
+
+.dashboard__footerIcon {
+    color: lightseagreen;
+    margin-left: 5px;
+}

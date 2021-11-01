@@ -1,0 +1,22 @@
+.sidebar {
+
+    --sidebar-background-color: rgb(78, 78, 78);
+    --sidebar-company-name-color: skyblue;
+
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background: var(--sidebar-background-color);
+}
+
+.sidebar__Logo {
+    width: 25px;
+    height: 25px;
+}
+
+.sidebar__companyName .MuiTypography-root {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--sidebar-company-name-color);
+}

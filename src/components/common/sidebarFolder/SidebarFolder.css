@@ -1,0 +1,45 @@
+.sidebarFolder {
+
+    --folder-text-color: cyan;
+    --subfolder-text-color: lightgrey;
+
+    width: 100%;
+    height: min-content;
+    padding: 10px 15px;
+}
+
+.sidebarFolder > .MuiList-root {
+    padding: 0 !important;
+}
+
+.sidebarFolder__folder {
+    display: flex;
+    align-items: center;
+}
+
+.sidebarFolder__folder .MuiTypography-root {
+    color: var(--folder-text-color) !important;
+}
+
+.sidebarFolder__folder:hover {
+    /* background: var(--folder-hover-background-color); */
+    cursor: pointer;
+}
+
+.sidebarFolder__subfolder {
+    border-radius: 10px;
+}
+
+.sidebarFolder__subfolder:hover {
+    /* background: var(--subfolder-hover-background-color) !important; */
+}
+
+.sidebarFolder__subfolder__text {
+    color: var(--subfolder-text-color);
+}
+
+@media only screen and (max-width: 600px) {
+    .sidebarFolder__folder:hover {
+        padding: 0 !important;
+    }
+}

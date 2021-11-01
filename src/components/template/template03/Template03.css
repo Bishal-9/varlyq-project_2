@@ -1,0 +1,8 @@
+.template03__card {
+    border-radius: 20px !important;
+    overflow: hidden;
+}
+
+.template03__cardBody {
+    padding: 15px;
+}

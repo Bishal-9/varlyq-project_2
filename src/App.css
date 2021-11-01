@@ -1,0 +1,24 @@
+.app {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+}
+
+.app__left {
+    display: block;
+}
+
+.app__right {
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .app__left {
+        display: none;
+    }
+
+    .app__left.open {
+        display: block;
+    }
+}
